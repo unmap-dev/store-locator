@@ -1,0 +1,719 @@
+{
+  "type": "FeatureCollection",
+  "_note": "SAMPLE DATA. Prairie Lantern Co. is a fictional retailer. Branch names, addresses, phone numbers (403-555-01xx, the range reserved for fiction), opening hours and services are invented for this demo and are not supplied by Unmap. Coordinates are approximate points in real Calgary neighbourhoods. See DATA_SOURCES.md.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "kensington",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0869,
+          51.0526
+        ]
+      },
+      "properties": {
+        "id": "kensington",
+        "name": "Prairie Lantern Kensington",
+        "branch": "Kensington",
+        "address": "1121 Kensington Rd NW",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T2N 3P3",
+        "phone": "+1 403-555-0100",
+        "services": [
+          "pickup",
+          "repairs",
+          "returns",
+          "accessible"
+        ],
+        "hours": {
+          "mon": "09:00-19:00",
+          "tue": "09:00-19:00",
+          "wed": "09:00-19:00",
+          "thu": "09:00-20:00",
+          "fri": "09:00-20:00",
+          "sat": "09:00-18:00",
+          "sun": "11:00-17:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beltline",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0713,
+          51.0379
+        ]
+      },
+      "properties": {
+        "id": "beltline",
+        "name": "Prairie Lantern Beltline",
+        "branch": "Beltline",
+        "address": "611 17 Ave SW",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T2S 0B2",
+        "phone": "+1 403-555-0101",
+        "services": [
+          "pickup",
+          "returns",
+          "accessible"
+        ],
+        "hours": {
+          "mon": "10:00-21:00",
+          "tue": "10:00-21:00",
+          "wed": "10:00-21:00",
+          "thu": "10:00-21:00",
+          "fri": "10:00-22:00",
+          "sat": "10:00-22:00",
+          "sun": "11:00-18:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "downtown",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0676,
+          51.0459
+        ]
+      },
+      "properties": {
+        "id": "downtown",
+        "name": "Prairie Lantern Downtown",
+        "branch": "Downtown",
+        "address": "215 8 Ave SW",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T2P 1B4",
+        "phone": "+1 403-555-0102",
+        "services": [
+          "pickup",
+          "returns",
+          "accessible"
+        ],
+        "hours": {
+          "mon": "08:00-18:00",
+          "tue": "08:00-18:00",
+          "wed": "08:00-18:00",
+          "thu": "08:00-18:00",
+          "fri": "08:00-18:00",
+          "sat": "10:00-16:00",
+          "sun": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "inglewood",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0316,
+          51.0372
+        ]
+      },
+      "properties": {
+        "id": "inglewood",
+        "name": "Prairie Lantern Inglewood",
+        "branch": "Inglewood",
+        "address": "1220 9 Ave SE",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T2G 0T1",
+        "phone": "+1 403-555-0103",
+        "services": [
+          "pickup",
+          "repairs",
+          "rentals"
+        ],
+        "hours": {
+          "mon": "09:00-19:00",
+          "tue": "09:00-19:00",
+          "wed": "09:00-19:00",
+          "thu": "09:00-20:00",
+          "fri": "09:00-20:00",
+          "sat": "09:00-18:00",
+          "sun": "11:00-17:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "marda-loop",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1046,
+          51.0234
+        ]
+      },
+      "properties": {
+        "id": "marda-loop",
+        "name": "Prairie Lantern Marda Loop",
+        "branch": "Marda Loop",
+        "address": "2015 33 Ave SW",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T2T 1Z5",
+        "phone": "+1 403-555-0104",
+        "services": [
+          "pickup",
+          "repairs",
+          "returns"
+        ],
+        "hours": {
+          "mon": "09:00-19:00",
+          "tue": "09:00-19:00",
+          "wed": "09:00-19:00",
+          "thu": "09:00-20:00",
+          "fri": "09:00-20:00",
+          "sat": "09:00-18:00",
+          "sun": "11:00-17:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bridgeland",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0432,
+          51.0546
+        ]
+      },
+      "properties": {
+        "id": "bridgeland",
+        "name": "Prairie Lantern Bridgeland",
+        "branch": "Bridgeland",
+        "address": "918 1 Ave NE",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T2E 0C5",
+        "phone": "+1 403-555-0105",
+        "services": [
+          "pickup",
+          "accessible"
+        ],
+        "hours": {
+          "mon": "09:00-19:00",
+          "tue": "09:00-19:00",
+          "wed": "09:00-19:00",
+          "thu": "09:00-20:00",
+          "fri": "09:00-20:00",
+          "sat": "09:00-18:00",
+          "sun": "11:00-17:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mission",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0717,
+          51.0316
+        ]
+      },
+      "properties": {
+        "id": "mission",
+        "name": "Prairie Lantern Mission",
+        "branch": "Mission",
+        "address": "2310 4 St SW",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T2S 1X2",
+        "phone": "+1 403-555-0106",
+        "services": [
+          "pickup",
+          "returns"
+        ],
+        "hours": {
+          "mon": "10:00-21:00",
+          "tue": "10:00-21:00",
+          "wed": "10:00-21:00",
+          "thu": "10:00-21:00",
+          "fri": "10:00-22:00",
+          "sat": "10:00-22:00",
+          "sun": "11:00-18:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "crowfoot",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.2061,
+          51.1236
+        ]
+      },
+      "properties": {
+        "id": "crowfoot",
+        "name": "Prairie Lantern Crowfoot",
+        "branch": "Crowfoot",
+        "address": "20 Crowfoot Cres NW",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T3G 2P6",
+        "phone": "+1 403-555-0107",
+        "services": [
+          "pickup",
+          "repairs",
+          "rentals",
+          "accessible",
+          "parking",
+          "ev"
+        ],
+        "hours": {
+          "mon": "09:00-21:00",
+          "tue": "09:00-21:00",
+          "wed": "09:00-21:00",
+          "thu": "09:00-21:00",
+          "fri": "09:00-21:00",
+          "sat": "09:00-19:00",
+          "sun": "10:00-18:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "signal-hill",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1645,
+          51.0207
+        ]
+      },
+      "properties": {
+        "id": "signal-hill",
+        "name": "Prairie Lantern Signal Hill",
+        "branch": "Signal Hill",
+        "address": "5570 Signal Hill Centre SW",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T3H 3P8",
+        "phone": "+1 403-555-0108",
+        "services": [
+          "pickup",
+          "repairs",
+          "accessible",
+          "parking",
+          "ev"
+        ],
+        "hours": {
+          "mon": "09:00-21:00",
+          "tue": "09:00-21:00",
+          "wed": "09:00-21:00",
+          "thu": "09:00-21:00",
+          "fri": "09:00-21:00",
+          "sat": "09:00-19:00",
+          "sun": "10:00-18:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chinook",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0716,
+          51.0021
+        ]
+      },
+      "properties": {
+        "id": "chinook",
+        "name": "Prairie Lantern Chinook",
+        "branch": "Chinook",
+        "address": "6455 Macleod Trail SW",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T2H 0K8",
+        "phone": "+1 403-555-0109",
+        "services": [
+          "pickup",
+          "returns",
+          "accessible",
+          "parking"
+        ],
+        "hours": {
+          "mon": "09:00-21:00",
+          "tue": "09:00-21:00",
+          "wed": "09:00-21:00",
+          "thu": "09:00-21:00",
+          "fri": "09:00-21:00",
+          "sat": "09:00-19:00",
+          "sun": "10:00-18:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "shawnessy",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0646,
+          50.9036
+        ]
+      },
+      "properties": {
+        "id": "shawnessy",
+        "name": "Prairie Lantern Shawnessy",
+        "branch": "Shawnessy",
+        "address": "250 Shawville Blvd SE",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T2Y 2Z7",
+        "phone": "+1 403-555-0110",
+        "services": [
+          "pickup",
+          "repairs",
+          "accessible",
+          "parking"
+        ],
+        "hours": {
+          "mon": "09:00-21:00",
+          "tue": "09:00-21:00",
+          "wed": "09:00-21:00",
+          "thu": "09:00-21:00",
+          "fri": "09:00-21:00",
+          "sat": "09:00-19:00",
+          "sun": "10:00-18:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "seton",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.953,
+          50.877
+        ]
+      },
+      "properties": {
+        "id": "seton",
+        "name": "Prairie Lantern Seton",
+        "branch": "Seton",
+        "address": "19489 Seton Way SE",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T3M 2V7",
+        "phone": "+1 403-555-0111",
+        "services": [
+          "pickup",
+          "accessible",
+          "parking",
+          "ev"
+        ],
+        "hours": {
+          "mon": "09:00-19:00",
+          "tue": "09:00-19:00",
+          "wed": "09:00-19:00",
+          "thu": "09:00-20:00",
+          "fri": "09:00-20:00",
+          "sat": "09:00-18:00",
+          "sun": "11:00-17:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "mahogany",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9585,
+          50.896
+        ]
+      },
+      "properties": {
+        "id": "mahogany",
+        "name": "Prairie Lantern Mahogany",
+        "branch": "Mahogany",
+        "address": "2 Mahogany Plaza SE",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T3M 2P8",
+        "phone": "+1 403-555-0112",
+        "services": [
+          "pickup",
+          "rentals",
+          "parking"
+        ],
+        "hours": {
+          "mon": "09:00-19:00",
+          "tue": "09:00-19:00",
+          "wed": "09:00-19:00",
+          "thu": "09:00-20:00",
+          "fri": "09:00-20:00",
+          "sat": "09:00-18:00",
+          "sun": "11:00-17:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "country-hills",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0682,
+          51.1556
+        ]
+      },
+      "properties": {
+        "id": "country-hills",
+        "name": "Prairie Lantern Country Hills",
+        "branch": "Country Hills",
+        "address": "500 Country Hills Blvd NE",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T3K 5K3",
+        "phone": "+1 403-555-0113",
+        "services": [
+          "pickup",
+          "returns",
+          "accessible",
+          "parking"
+        ],
+        "hours": {
+          "mon": "09:00-21:00",
+          "tue": "09:00-21:00",
+          "wed": "09:00-21:00",
+          "thu": "09:00-21:00",
+          "fri": "09:00-21:00",
+          "sat": "09:00-19:00",
+          "sun": "10:00-18:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "royal-oak",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.2112,
+          51.1438
+        ]
+      },
+      "properties": {
+        "id": "royal-oak",
+        "name": "Prairie Lantern Royal Oak",
+        "branch": "Royal Oak",
+        "address": "8888 Country Hills Blvd NW",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T3G 5T4",
+        "phone": "+1 403-555-0114",
+        "services": [
+          "pickup",
+          "repairs",
+          "rentals",
+          "parking",
+          "ev"
+        ],
+        "hours": {
+          "mon": "09:00-19:00",
+          "tue": "09:00-19:00",
+          "wed": "09:00-19:00",
+          "thu": "09:00-20:00",
+          "fri": "09:00-20:00",
+          "sat": "09:00-18:00",
+          "sun": "11:00-17:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "brentwood",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.129,
+          51.0866
+        ]
+      },
+      "properties": {
+        "id": "brentwood",
+        "name": "Prairie Lantern Brentwood",
+        "branch": "Brentwood",
+        "address": "3630 Brentwood Rd NW",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T2L 1K8",
+        "phone": "+1 403-555-0115",
+        "services": [
+          "pickup",
+          "repairs",
+          "accessible",
+          "parking"
+        ],
+        "hours": {
+          "mon": "09:00-19:00",
+          "tue": "09:00-19:00",
+          "wed": "09:00-19:00",
+          "thu": "09:00-20:00",
+          "fri": "09:00-20:00",
+          "sat": "09:00-18:00",
+          "sun": "11:00-17:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "forest-lawn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9844,
+          51.0378
+        ]
+      },
+      "properties": {
+        "id": "forest-lawn",
+        "name": "Prairie Lantern Forest Lawn",
+        "branch": "Forest Lawn",
+        "address": "3620 17 Ave SE",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T2A 0R9",
+        "phone": "+1 403-555-0116",
+        "services": [
+          "pickup",
+          "returns",
+          "parking"
+        ],
+        "hours": {
+          "mon": "09:00-19:00",
+          "tue": "09:00-19:00",
+          "wed": "09:00-19:00",
+          "thu": "09:00-20:00",
+          "fri": "09:00-20:00",
+          "sat": "09:00-18:00",
+          "sun": "11:00-17:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sunridge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.985,
+          51.0745
+        ]
+      },
+      "properties": {
+        "id": "sunridge",
+        "name": "Prairie Lantern Sunridge",
+        "branch": "Sunridge",
+        "address": "2525 36 St NE",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T1Y 5T4",
+        "phone": "+1 403-555-0117",
+        "services": [
+          "pickup",
+          "returns",
+          "accessible",
+          "parking",
+          "ev"
+        ],
+        "hours": {
+          "mon": "09:00-21:00",
+          "tue": "09:00-21:00",
+          "wed": "09:00-21:00",
+          "thu": "09:00-21:00",
+          "fri": "09:00-21:00",
+          "sat": "09:00-19:00",
+          "sun": "10:00-18:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bowness",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.2195,
+          51.0901
+        ]
+      },
+      "properties": {
+        "id": "bowness",
+        "name": "Prairie Lantern Bowness",
+        "branch": "Bowness",
+        "address": "6403 Bowness Rd NW",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T3B 0E4",
+        "phone": "+1 403-555-0118",
+        "services": [
+          "pickup",
+          "rentals",
+          "repairs"
+        ],
+        "hours": {
+          "mon": null,
+          "tue": "10:00-18:00",
+          "wed": "10:00-18:00",
+          "thu": "10:00-18:00",
+          "fri": "10:00-18:00",
+          "sat": "10:00-17:00",
+          "sun": "12:00-16:00"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "westbrook",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1306,
+          51.0379
+        ]
+      },
+      "properties": {
+        "id": "westbrook",
+        "name": "Prairie Lantern Westbrook",
+        "branch": "Westbrook",
+        "address": "3300 17 Ave SW",
+        "city": "Calgary",
+        "province": "AB",
+        "postalCode": "T3E 0B4",
+        "phone": "+1 403-555-0119",
+        "services": [
+          "pickup",
+          "returns",
+          "accessible"
+        ],
+        "hours": {
+          "mon": "09:00-19:00",
+          "tue": "09:00-19:00",
+          "wed": "09:00-19:00",
+          "thu": "09:00-20:00",
+          "fri": "09:00-20:00",
+          "sat": "09:00-18:00",
+          "sun": "11:00-17:00"
+        }
+      }
+    }
+  ]
+}
