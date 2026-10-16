@@ -12,7 +12,7 @@ import { useReach } from "@/hooks/use-reach";
 import { useTravelTimes } from "@/hooks/use-travel-times";
 import { ApiProblemAlert } from "@/lib/kit/api-problem";
 import { API_KEY } from "@/lib/kit/config";
-import { DemoHeader } from "@/lib/kit/demo-header";
+import { AppHeader } from "@/lib/kit/app-header";
 import { format } from "@/lib/kit/i18n";
 import { MissingKey } from "@/lib/kit/missing-key";
 import { useLang } from "@/lib/kit/use-lang";
@@ -99,7 +99,7 @@ export function PlacesApp() {
 
   return (
     <div className="flex h-dvh flex-col">
-      <DemoHeader manifest={MANIFEST} lang={lang} onLang={setLang} />
+      <AppHeader manifest={MANIFEST} lang={lang} onLang={setLang} />
       <div className="flex min-h-0 flex-1 flex-col lg:flex-row">
         <aside className="order-last flex min-h-0 flex-1 flex-col overflow-y-auto border-t lg:order-first lg:w-[400px] lg:flex-none lg:border-t-0 lg:border-r">
           <div className="flex flex-col gap-3 p-3">

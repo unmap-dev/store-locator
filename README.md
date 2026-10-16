@@ -1,10 +1,10 @@
-# Places: a store locator built with Unmap
+# Store Locator, built with Unmap
 
 A store and branch locator for a retail network: search a city, postal code or address and the
 branches are ranked by real driving or walking time, with the straight-line distance beside it;
 pick one for its hours, turn-by-turn directions and the area you can reach from it in 10 or 20
-minutes. Part of the [Unmap demo suite](https://unmap.dev/demos); live at
-[apps.unmap.dev/places](https://apps.unmap.dev/places).
+minutes. One of the [Unmap apps](https://unmap.dev/apps); live at
+[apps.unmap.dev/store-locator](https://apps.unmap.dev/store-locator/).
 
 The stores belong to **Prairie Lantern Co., a fictional retailer**. Every name, address, phone
 number, opening hour and service is sample data (see [`DATA_SOURCES.md`](DATA_SOURCES.md)); the map
@@ -63,7 +63,7 @@ longer a sample.
 app/page.tsx                 the one page; renders the app in the browser
 components/places/           the app: list, filters, details, map pane
 components/ui/  lib/map-*    Unmap registry components and shadcn primitives, copied in unmodified
-lib/kit/                     the Unmap demo kit (header, Built with Unmap panel, errors, en/fr), copied in
+lib/kit/                     the Unmap app kit (header, Built with Unmap panel, errors, en/fr), copied in
 hooks/                       one hook per Unmap call: travel times (matrix), directions, reachable area
 lib/stores.ts                the store model: validation, filters, open hours, distances (no React, no fetch)
 lib/rank.ts                  ordering by travel time or straight line; matrix batching (no React, no fetch)

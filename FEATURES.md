@@ -1,6 +1,6 @@
 # Features
 
-What Places does, which Unmap API does it, and what it deliberately does not do.
+What Store Locator does, which Unmap API does it, and what it deliberately does not do.
 
 ## Implemented
 

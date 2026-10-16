@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Places · store locator · Unmap demo",
+  title: "Store Locator · Unmap app",
   description: "A store and branch locator built with Unmap and the Unmap component registry. Sample business data.",
 };
 

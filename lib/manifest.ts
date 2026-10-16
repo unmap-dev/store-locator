@@ -1,12 +1,12 @@
-import type { DemoManifest } from "@/lib/kit/provenance";
+import type { AppManifest } from "@/lib/kit/provenance";
 
 /**
- * What the "Built with Unmap" panel and the header say about Places. Lists only what the app really
+ * What the "Built with Unmap" panel and the header say about Store Locator. Lists only what the app really
  * calls; a service is added here in the same change that starts calling it.
  */
-export const MANIFEST: DemoManifest = {
-  slug: "places",
-  name: { en: "Places · store locator", fr: "Places · localisateur de magasins" },
+export const MANIFEST: AppManifest = {
+  slug: "store-locator",
+  name: { en: "Store Locator", fr: "Localisateur de magasins" },
   tagline: {
     en: "Find the nearest branch of a retail network, with live Unmap maps.",
     fr: "Trouvez la succursale la plus proche d'un réseau de détail, avec les cartes Unmap en direct.",
@@ -66,7 +66,7 @@ export const MANIFEST: DemoManifest = {
         en: "Prairie Lantern Co.: branch names, addresses, phone numbers, hours and services",
         fr: "Prairie Lantern Co. : noms des succursales, adresses, numéros de téléphone, heures et services",
       },
-      source: "Fictional, written for this demo (data/stores.sample.json)",
+      source: "Fictional, written for this app (data/stores.sample.json)",
     },
     {
       kind: "live",

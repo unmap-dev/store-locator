@@ -15,7 +15,7 @@ afterEach(() => {
 describe("Places without a key", () => {
   it("shows the stores, labels them sample data, and asks for a key instead of a map", () => {
     render(<PlacesApp />);
-    expect(screen.getByText("This demo needs an Unmap API key")).toBeTruthy();
+    expect(screen.getByText("This app needs an Unmap API key")).toBeTruthy();
     const list = screen.getByRole("list", { name: "Branches" });
     expect(within(list).getAllByRole("listitem").length).toBe(20);
     expect(screen.getAllByText("Sample data").length).toBeGreaterThan(0);
@@ -35,7 +35,7 @@ describe("Places without a key", () => {
   it("switches to French", () => {
     render(<PlacesApp />);
     fireEvent.click(screen.getByRole("button", { name: "Français" }));
-    expect(screen.getByText("Cette démo a besoin d'une clé d'API Unmap")).toBeTruthy();
+    expect(screen.getByText("Cette application a besoin d'une clé d'API Unmap")).toBeTruthy();
     expect(window.location.search).toBe("?lang=fr");
   });
 });

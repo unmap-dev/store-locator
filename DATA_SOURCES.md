@@ -7,7 +7,7 @@ Everything on screen, where it comes from, and how far to trust it.
 | Basemap (streets, labels, water, parks) | Unmap Maps API, built from OpenStreetMap | ODbL, © OpenStreetMap contributors | Live |
 | Search results | Unmap Geocoding API (open address and place data; see unmap.dev/attribution) | per source | Live |
 | Travel times, routes, turn-by-turn steps, reachable areas | Unmap Routing API, on the OpenStreetMap road network | ODbL, © OpenStreetMap contributors | Live |
-| Store names, addresses, phone numbers, opening hours, services | **Sample data**, invented for this demo: `data/stores.sample.json` | Free to reuse | No |
+| Store names, addresses, phone numbers, opening hours, services | **Sample data**, invented for this app: `data/stores.sample.json` | Free to reuse | No |
 
 ## The sample network
 

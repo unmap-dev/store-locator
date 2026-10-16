@@ -2,7 +2,7 @@
   "name": "unmap-store-locator",
   "version": "0.0.1",
   "private": true,
-  "description": "Places: a store and branch locator built with Unmap. An Unmap demo and a starter you can clone.",
+  "description": "Store Locator: find the nearest branch, built with Unmap. An Unmap app and a starter you can clone.",
   "scripts": {
     "dev": "node scripts/copy-maplibre-worker.mjs && next dev --port 3201",
     "build": "node scripts/copy-maplibre-worker.mjs && next build",

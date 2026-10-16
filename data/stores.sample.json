@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "_note": "SAMPLE DATA. Prairie Lantern Co. is a fictional retailer. Branch names, addresses, phone numbers (403-555-01xx, the range reserved for fiction), opening hours and services are invented for this demo and are not supplied by Unmap. Coordinates are approximate points in real Calgary neighbourhoods. See DATA_SOURCES.md.",
+  "_note": "SAMPLE DATA. Prairie Lantern Co. is a fictional retailer. Branch names, addresses, phone numbers (403-555-01xx, the range reserved for fiction), opening hours and services are invented for this app and are not supplied by Unmap. Coordinates are approximate points in real Calgary neighbourhoods. See DATA_SOURCES.md.",
   "features": [
     {
       "type": "Feature",
