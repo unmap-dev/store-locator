@@ -33,4 +33,5 @@ the Unmap Places API returns names, locations and addresses of points of interes
 - Travel times come from the road network without live traffic; they are typical, not current.
 - A branch with no travel time means the Matrix API had no answer for that pair, not that no road
   reaches it; directions may still work.
-- Routing and search cover Canada.
+- Search is focused on Calgary, so it answers in Canada. Driving and walking times, directions
+  and reachable areas cover Canada; in ten US metros only driving does (see the README).

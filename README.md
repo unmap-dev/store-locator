@@ -57,6 +57,18 @@ file and lists every problem it finds. Set the time zone your hours are in with 
 Then update the `sample` entry in `lib/manifest.ts` and `DATA_SOURCES.md`, since your data is no
 longer a sample.
 
+### Stores in the US
+
+The sample stores are in Calgary, and the search prefers places near downtown Calgary (`CALGARY`
+in `components/places/search-panel.tsx`), which also keeps it in Canada. Unmap also geocodes and
+routes by car in ten US metros: Los Angeles, New York, Miami, SF Bay Area, Seattle, Washington DC,
+Austin, Boston, Denver and Chicago (place names nationwide). For US stores, set that focus to a
+point in their metro (Seattle is `[-122.33, 47.61]`): a focus inside the US makes every search a US
+one. Update `searchEmpty` in `lib/text.ts` too, which says the search found no Canadian place.
+Driving times, directions and reachable areas then work when the origin and the stores are in the
+same metro. US routing is car only: the walking switch answers `422 outside_coverage` there, so
+hide it for a US network.
+
 ## How it is built
 
 ```
